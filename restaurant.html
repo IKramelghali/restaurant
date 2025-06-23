@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ZAYNA Restaurant</title>
+  <link rel="stylesheet" href="style.css">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Open+Sans:wght@400;600&display=swap"
+    rel="stylesheet">
+</head>
+<body>
+  <div class="bg-[url('images/backhero.jpg')] bg-cover bg-center w-full h-[90vh] sm:h-[90vh]">
+    <!-- Header -->
+    <header class="mb-2 bg-gray-950/60 w-full fixed p-3 shadow">
+      <div class="relative mx-auto flex max-w-screen-lg flex-col py-4 sm:flex-row sm:items-center sm:justify-between">
+        <a class="flex items-center text-rose-600 text-2xl sm:text-4xl font-bold italic font-playfair" href="/">
+          <span>ZAYNA Restaurant</span>
+        </a>
+        <input class="peer hidden" type="checkbox" id="navbar-open" />
+        <label class="absolute text-white right-0 mt-1 cursor-pointer text-xl sm:hidden" for="navbar-open">
+          <svg xmlns="http://www.w3.org/2000/svg" width="0.88em" height="1em" preserveAspectRatio="xMidYMid meet"
+            viewBox="0 0 448 512">
+            <path fill="currentColor"
+              d="M0 96c0-17.7 14.3-32 32-32h384c17.7 0 32 14.3 32 32s-14.3 32-32 32H32c-17.7 0-32-14.3-32-32zm0 160c0-17.7 14.3-32 32-32h384c17.7 0 32 14.3 32 32s-14.3 32-32 32H32c-17.7 0-32-14.3-32-32zm448 160c0 17.7-14.3 32-32 32H32c-17.7 0-32-14.3-32-32s14.3-32 32-32h384c17.7 0 32 14.3 32 32z" />
+          </svg>
+        </label>
+        <nav aria-label="Header Navigation" class="peer-checked:block hidden pl-2 py-6 sm:block sm:py-0">
+          <ul class="flex flex-col gap-y-4 sm:flex-row sm:gap-x-8">
+            <li><a class="text-stone-50 hover:text-rose-600 font-bold" href="#">HOME</a></li>
+            <li><a class="text-stone-50 hover:text-rose-600 font-bold" href="#">MENU</a></li>
+            <li><a class="text-stone-50 hover:text-rose-600 font-bold" href="#">ABOUT</a></li>
+            <li><a class="text-stone-50 hover:text-rose-600 font-bold" href="#">Testimonials</a></li>
+            <li><a class="text-stone-50 hover:text-rose-600 font-bold" href="#">CONTACT</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <!-- Hero Section -->
+    <section class="h-full flex flex-col items-center justify-center text-center text-stone-50 gap-6 py-4">
+      <h2 class="text-xl sm:text-4xl font-bold italic font-playfair ">
+        Taste Our Delicious Best Foods
+      </h2>
+      <p class="italic font-opensans text-md sm:text-xl font-bold">
+        Well-prepared dishes can evoke strong emotions and create lasting memories.
+      </p>
+      <div class=" max-w-sm px-6">
+        <button
+          class="w-full transition delay-300 duration-300 ease-in-out hover:-translate-y-4 text-2xl italic bg-transparent font-opensans border-4 border-double border-red-500 text-white px-6 py-2 rounded font-bold hover:bg-red-500">
+          Explore Menu
+        </button>
+      </div>
+    </section>
+  </div>
+  <!-- Most Popular Items -->
+  <section class="py-12 px-4 text-center">
+    <h3 class="text-4xl font-bold italic font-playfair mb-10">Our Popular items</h3>
+    <h2 class="text-2xl  italic font-playfair mb-4">orem Ipsum is simply dummy text of the printing and typesetting
+      industry. Lorem Ipsum has been the industry's standard</h2>
+
+    <div class="flex flex-col sm:flex-row items-center justify-content-center  gap-6 p-6">
+      <div
+        class="max-w-3/5  bg-gradient-to-r from-rose-600 via-gray-50 to-gray-950 rounded-2xl shadow-md overflow-hidden">
+        <img class="w-full h-40 object-cover" src="images/menu1.jpg" alt="Chicken Dumpling" />
+        <div class="p-4">
+          <h3 class="text-lg font-semibold text-gray-950">Chicken Dumpling</h3>
+          <p class="text-sm text-gray-950 mt-1">
+            Wraps filled with minced chicken, onions, and spices, steamed or fried to perfection.
+          </p>
+          <span class="text-base font-bold text-gray-950">Rs. 180</span>
+        </div>
+      </div>
+      <div
+        class="max-w-3/5  bg-gradient-to-r from-rose-600 via-gray-50 to-gray-950 rounded-2xl shadow-md overflow-hidden">
+        <img class="w-full h-40 object-cover" src="images/menu1.jpg" alt="Chicken Dumpling" />
+        <div class="p-4">
+          <h3 class="text-lg font-semibold text-gray-950">Chicken Dumpling</h3>
+          <p class="text-sm text-gray-950 mt-1">
+            Wraps filled with minced chicken, onions, and spices, steamed or fried to perfection.
+          </p>
+          <span class="text-base font-bold text-gray-950">Rs. 180</span>
+        </div>
+      </div>
+      <div
+        class="max-w-3/5  bg-gradient-to-r from-rose-600 via-gray-50 to-gray-950 rounded-2xl shadow-md overflow-hidden">
+        <img class="w-full h-40 object-cover" src="images/menu1.jpg" alt="Chicken Dumpling" />
+        <div class="p-4">
+          <h3 class="text-lg font-semibold text-gray-950">Chicken Dumpling</h3>
+          <p class="text-sm text-gray-950 mt-1">
+            Wraps filled with minced chicken, onions, and spices, steamed or fried to perfection.
+          </p>
+          <span class="text-base font-bold text-gray-950">Rs. 180</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section
+    class="py-20 px-12 bg-gray-950 text-gray-50 shadow flex flex-col md:flex-row items-center justify-center text-center md:text-start gap-10">
+    <div class="md:w-1/2 ">
+      <h2 class="text-4xl font-bold italic font-playfair mb-4">About Us</h2>
+      <p class="mb-2">
+        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into ele
+      </p>
+      <button class="mt-4 px-6 py-2 bg-transparent border-4  hover:border-red-600 text-white rounded hover:bg-red-600 ">
+        More
+      </button>
+    </div>
+
+    <div class="flex justify-center  md:w-1/2 ">
+      <img src="images/chef.jpg" alt="Chef" class="rounded-lg w-80 h-auto object-cover">
+    </div>
+  </section>
+  <!-- Feedback Section -->
+  <section class="py-12 px-6 mb-4 text-center">
+    <h3 class="text-4xl font-bold italic font-playfair mb-8">Testimonials</h3>
+    <div class="flex flex-col md:flex-row gap-6 max-w-4xl mx-auto">
+      <div class="bg-rose-600 text-white p-6 rounded-xl flex-1">
+        <h4 class="font-semibold">Martin Jae</h4>
+        <p class="text-sm">“Taste buds dancing! Loved it.”</p>
+      </div>
+      <div class="bg-gray-950 text-white p-6 rounded-xl flex-1">
+        <h4 class="font-semibold">Elisa John</h4>
+        <p class="text-sm">“So fresh and well-balanced.”</p>
+      </div>
+    </div>
+  </section>
+  <!-- Contact -->
+  <section class="px-6 text-gray-950 mx-auto flex flex-col ">
+    <div class="text-center">
+      <h2 class="text-4xl font-bold italic font-playfair mb-4">Contact Us</h2>
+      <p class="mb-4">Have a question or want to make a reservation? We'd love to hear from you. Reach out anytime!</p>
+    </div>
+    <div class="flex flex-row gap-6">
+      <div class="bg-white p-6 rounded-lg shadow-xl shadow-rose-600/50 self-center md:w-1/2">
+        <form class="space-y-4">
+          <div>
+            <label class="block mb-1 text-sm font-semibold">Name</label>
+            <input type="text" placeholder="Your name"
+              class="w-full p-2 border-b border-gray-300 rounded focus:outline-none focus:ring-2 focus:ring-rose-500">
+          </div>
+          <div>
+            <label class="block mb-1 text-sm font-semibold">Email</label>
+            <input type="email" placeholder="Your email"
+              class="w-full p-2 border-b border-gray-300 rounded focus:outline-none focus:ring-2 focus:ring-rose-500">
+          </div>
+          <div>
+            <label class="block mb-1 text-sm font-semibold">Message</label>
+            <textarea rows="4" placeholder="Your message"
+              class="w-full p-2 border-b border-gray-300 rounded focus:outline-none focus:ring-2 focus:ring-rose-500"></textarea>
+          </div>
+          <button type="submit" class="w-80 py-2 bg-rose-600 text-white rounded hover:bg-rose-700 transition">
+            Send Message
+          </button>
+        </form>
+      </div>
+      <div class="md:w-1/2">
+        <img src="images/contactus.svg" alt="" srcset="" class="w-full">
+      </div>
+    </div>
+  </section>
+  <!-- Footer -->
+  <footer class="bg-gray-950  py-20 px-6 text-center">
+    <div class="space-x-4 text-rose-600 text-lg">
+      <i class="fab fa-facebook-f"></i>
+      <i class="fab fa-twitter"></i>
+      <i class="fab fa-instagram"></i>
+      <i class="fab fa-linkedin-in"></i>
+    </div>
+    <p class="text-gray-500 text-xs mt-4">© 2025 ZAYNA Restaurants. All rights reserved.</p>
+  </footer>
+
+  <!-- Font Awesome -->
+  <script src="https://kit.fontawesome.com/32495b1217.js" crossorigin="anonymous"></script>
+</body>
+<script src="https://cdn.tailwindcss.com"></script>
+
+</html>
