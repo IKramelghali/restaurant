@@ -1,10 +1,85 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ZAYNA Restaurant</title>
+  <link rel="stylesheet" href="style.css">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Open+Sans:wght@400;600&display=swap"
+    rel="stylesheet">
 </head>
 <body>
+  <div class="bg-[url('images/backhero.jpg')] bg-cover bg-center w-full h-[90vh] sm:h-[60vh]">
+    <!-- Header -->
+    <header class="mb-2 bg-gray-950/60 w-full fixed p-3 shadow">
+      <div class="relative mx-auto flex max-w-screen-lg flex-col py-4 sm:flex-row sm:items-center sm:justify-between">
+        <a class="flex items-center text-rose-600 text-2xl sm:text-4xl font-bold italic font-playfair" href="/">
+          <span>ZAYNA Restaurant</span>
+        </a>
+        <input class="peer hidden" type="checkbox" id="navbar-open" />
+        <label class="absolute text-white right-0 mt-1 cursor-pointer text-xl sm:hidden" for="navbar-open">
+          <svg xmlns="http://www.w3.org/2000/svg" width="0.88em" height="1em" preserveAspectRatio="xMidYMid meet"
+            viewBox="0 0 448 512">
+            <path fill="currentColor"
+              d="M0 96c0-17.7 14.3-32 32-32h384c17.7 0 32 14.3 32 32s-14.3 32-32 32H32c-17.7 0-32-14.3-32-32zm0 160c0-17.7 14.3-32 32-32h384c17.7 0 32 14.3 32 32s-14.3 32-32 32H32c-17.7 0-32-14.3-32-32zm448 160c0 17.7-14.3 32-32 32H32c-17.7 0-32-14.3-32-32s14.3-32 32-32h384c17.7 0 32 14.3 32 32z" />
+          </svg>
+        </label>
+        <nav aria-label="Header Navigation" class="peer-checked:block hidden pl-2 py-6 sm:block sm:py-0">
+          <ul class="flex flex-col gap-y-4 sm:flex-row sm:gap-x-8">
+            <li><a class="text-stone-50 hover:text-rose-600 font-bold" href="#">HOME</a></li>
+            <li><a class="text-stone-50 hover:text-rose-600 font-bold" href="#">MENU</a></li>
+            <li><a class="text-stone-50 hover:text-rose-600 font-bold" href="#">ABOUT</a></li>
+            <li><a class="text-stone-50 hover:text-rose-600 font-bold" href="#">Testimonials</a></li>
+            <li><a class="text-stone-50 hover:text-rose-600 font-bold" href="#">CONTACT</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <!-- Hero Section -->
+    <section class="h-full flex flex-col items-center justify-center text-center text-stone-50 gap-6 py-4">
+      <h2 class="text-xl sm:text-4xl font-bold italic font-playfair ">
+Our Menu     </h2>
+      <p class="italic font-opensans text-md sm:text-xl font-bold">
+        Well-prepared dishes can evoke strong emotions and create lasting memories.
+      </p>
+
+    </section>
+  </div>
+  <!-- Most Popular Items -->
+  <section class=" text-center px-4 flex flex-col sm:flex-row flex-wrap items-center justify-content-center  gap-6 p-6">
+      <div class="max-w-sm bg-gradient-to-r from-rose-600 via-gray-50 to-gray-950 rounded-2xl shadow-md pb-4 overflow-hidden">
+        <img class="w-full h-40 object-cover" src="images/menu1.jpg" alt="Chicken Dumpling" />
+        <div class="p-4">
+          <h3 class="text-lg font-semibold text-gray-950">Chicken Dumpling</h3>
+          <p class="text-sm text-gray-950 mt-1">
+            Wraps filled with minced chicken, onions, and spices, steamed or fried to perfection.
+          </p>
+          <span class="text-base font-bold text-gray-950">Rs. 180</span>
+        </div>
+        <button type="submit" class="w-80 py-2 bg-rose-600 text-white rounded hover:bg-rose-700 transition">
+add          </button>
+      </div>
+
     
+  </section>
+
+
+
+  <!-- Footer -->
+  <footer class="bg-gray-950  py-20 px-6 text-center">
+    <div class="space-x-4 text-rose-600 text-lg">
+      <i class="fab fa-facebook-f"></i>
+      <i class="fab fa-twitter"></i>
+      <i class="fab fa-instagram"></i>
+      <i class="fab fa-linkedin-in"></i>
+    </div>
+    <p class="text-gray-500 text-xs mt-4">© 2025 ZAYNA Restaurants. All rights reserved.</p>
+  </footer>
+
+  <!-- Font Awesome -->
+  <script src="https://kit.fontawesome.com/32495b1217.js" crossorigin="anonymous"></script>
+  <script src="https://cdn.tailwindcss.com"></script>
 </body>
+
 </html>
